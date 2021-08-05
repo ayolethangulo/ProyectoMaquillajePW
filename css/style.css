@@ -1,0 +1,124 @@
+.container {
+  width: 100%;
+}
+.subtitulos {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.subtitulos .card {
+  width: 330px;
+  height: 350px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  color: #e900aa;
+}
+.subtitulos .card h5 {
+  font-weight: bold;
+}
+.subtitulos .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+}
+.subtitulos .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.subtitulos .card img {
+  width: 330px;
+  height: 210px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #8a8a8a;
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: #ffff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 h6 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.social-links i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+.social-links i:hover {
+  color: blue;
+}
+#titlemarca {
+  color: #df0000;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.parrafomarca {
+  color: black;
+  font-family: sans-serif;
+}
+.productSubtitle {
+  color: #6200e1;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+}
+.product-contenedor {
+  margin: 15px;
+  padding: 2px 16px;
+}
+.product-contenedor:hover {
+  box-shadow: 0 8px 16px 0 rgba(3, 3, 3, 0.2);
+}
+.product-contenedor img {
+  width: 150px;
+}
+.contenido-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 0.1px solid #eeeeee;
+  margin-bottom: 5px;
+}
+.influencer {
+  color: #e900aa;
+  font-family: cursive;
+  font-weight: bold;
+}
+.tips-contenido {
+  margin: 15px;
+  padding: 2px 16px;
+}
+#contacto {
+  margin: 15px;
+  padding: 15px;
+  width: 95%;
+  height: 500px;
+}
